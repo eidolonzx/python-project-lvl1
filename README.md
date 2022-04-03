@@ -3,4 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-[![linter-check](https://github.com/eidolonzx/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)]
+![linter-check](https://github.com/eidolonzx/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
+
+ASCIINEMA
+Step 5 - https://asciinema.org/a/JzAsSFEK4zzlnJtrCfo4UcHkk
