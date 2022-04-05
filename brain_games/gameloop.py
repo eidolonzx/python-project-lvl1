@@ -10,7 +10,7 @@ def do_turn(game_condition, current_turn):
     game_turns = 3
     if current_turn > game_turns:
         return True
-    condition = game_condition()    
+    condition = game_condition()
     question = condition[0]
     right_answer = condition[1]
 
@@ -27,9 +27,6 @@ def do_turn(game_condition, current_turn):
 
 
 def make_game_loop(game_name, game_rule, game_condition):
-    print('I am here!')
-    print(game_condition)
-    print('I am here too!')
     current_turn = 1
     print(f"Welcome to the {game_name}")
     player_name = get_name()

@@ -7,3 +7,4 @@
 
 ASCIINEMA
 Step 5 - https://asciinema.org/a/JzAsSFEK4zzlnJtrCfo4UcHkk
+Step 6 - https://asciinema.org/a/MVOXH5vkEkthIe0m9aFMthCpv
