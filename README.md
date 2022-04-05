@@ -5,7 +5,7 @@
 
 ![linter-check](https://github.com/eidolonzx/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
-ASCIINEMA
+### ASCIINEMA
 
 Step 5 - https://asciinema.org/a/JzAsSFEK4zzlnJtrCfo4UcHkk
 
@@ -14,3 +14,5 @@ Step 6 - https://asciinema.org/a/MVOXH5vkEkthIe0m9aFMthCpv
 Step 7 - https://asciinema.org/a/P7Ag8gIJcpibWRSGzwNiooI6c
 
 Step 8 - https://asciinema.org/a/QkSDQjN06IgsIIiEMHGBK9tG1
+
+Step 9 - https://asciinema.org/a/YDOlKRDwfZMpPOriRxvQXVG1b
