@@ -1,36 +1,20 @@
 #!/usr/bin/env python
-import prompt
+from brain_games.gameloop import make_game_loop
 import random
 
 
-def main():
-    print("Welcome to the Brain Games!!!")
-    name = prompt.string("May I have your name? ")
-    print("Hello,", name)
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    game_loop(0, name)
+game_name = "Brain Even"
+game_rule = 'Answer "yes" if number even otherwise answer "no"'
 
-
-def game_loop(counter, name):
+def game_condition():
     n = random.randint(1, 99)
-    print("Question:", n)
-    answer = prompt.string("Your answer: ")
-    is_correct = n % 2 == 0 and answer == "yes" or n % 2 != 0 and answer == "no"
-    if is_correct:
-        print("Correct!")
-        counter += 1
-        # game victory condition is here
-        if counter == 3:
-            print(f"Congratulations, {name}!")
-        else:
-            game_loop(counter, name)
-    else:
-        if answer == "yes":
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-        else:
-            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
-        print("Let's try again,", name)
+    question = n
+    right_answer = "yes" if n % 2 == 0 else "no"
+    condition = [question, right_answer]
+    return condition
 
+def main():
+    make_game_loop(game_name, game_rule, game_condition)
 
 if __name__ == '__main__':
     main()
