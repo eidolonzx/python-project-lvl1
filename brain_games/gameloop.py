@@ -30,7 +30,7 @@ def make_game_loop(game_name, game_rule, game_condition):
     current_turn = 1
     print(f"Welcome to the {game_name}")
     player_name = get_name()
-    print(f"Hello, {player_name}")
+    print(f"Hi, {player_name}")
     print(game_rule)
     is_win = do_turn(game_condition, current_turn)
     if is_win:
