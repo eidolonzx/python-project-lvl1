@@ -20,7 +20,8 @@ def do_turn(game_condition, current_turn):
     if players_answer == right_answer:
         print("Correct!")
     else:
-        print(f"{players_answer} is wrong answer ;( Correct answer was {right_answer}")
+        text = "is wrong answer ;( Correct answer was"
+        print(f"{players_answer} {text} {right_answer}")
         return False
     current_turn += 1
     return do_turn(game_condition, current_turn)
