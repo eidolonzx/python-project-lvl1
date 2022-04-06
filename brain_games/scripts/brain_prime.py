@@ -19,7 +19,7 @@ def is_prime(number):
 
 def game_condition():
     number = random.randint(1, 99)
-    question = f"Is this number prime? {number}"
+    question = str(number)
     right_answer = "yes" if is_prime(number) else "no"
     condition = [question, right_answer]
     return condition
