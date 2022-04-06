@@ -15,6 +15,8 @@ def make_progression(first_num, step, unknown_pos, prog_length):
             current_num_str = ".."
         else:
             current_num_str = str(first_num + counter * step)
+        if counter == 0:
+            return iterator(counter + 1, f"{current_num_str}")
         return iterator(counter + 1, f"{acc} {current_num_str}")
     return iterator(0, "")
 
